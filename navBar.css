@@ -1,0 +1,94 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.navBar {
+  /* background-color: #5e8d8d; */
+  /* padding: 1rem 0rem; */
+
+}
+
+/* Step3: componentContainer */
+.navContainer {
+  /* background-color: #863d3d; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Step4: row1 */
+
+
+
+/* Step5: column1 */
+.navBlock1 {
+  /* background-color: #bbcbbc; */
+}
+
+/* Step6: subColumn1 */
+
+
+/* Step7: contentContainer */
+.navBox1 figure {
+  /* background-color: #838c9b; */
+}
+
+.navBox1 figure img {
+  /* background-color: #ffffff; */
+  width: auto;
+  height: 5rem;
+  margin-left: 6.5rem;
+}
+
+/* Step5: column2 */
+.navBlock2 {
+  /* background-color: #da1414; */
+   display: flex; 
+  align-items: center;
+  justify-content: center; 
+}
+
+/* Step6: subColumn2 */
+.navBox2 {
+  /* background-color: #9cc117; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Step7: contentContainer */
+.navBox2 ul {
+  /* background-color: #000000; */
+
+}
+
+.navBox2 ul li {
+  /* background-color: #00009d; */
+  margin: 0rem 0.9rem;
+
+}
+
+.navBox2 ul li a {
+  /* background-color: #ffffff; */
+  font-size: 2rem;
+  color: #343A40;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+}

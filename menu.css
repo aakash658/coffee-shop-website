@@ -1,0 +1,109 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.menu {
+  /* background-color: #ff02cc; */
+  padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.menuContainer {
+  /* background-color: #85b1c1; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Step4: row1 */
+.menuBody1 {
+  /* background-color: #88b8cc; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Step5: column1 */
+.menuBlock1 {
+  /* background-color: #b84a4a; */
+}
+
+/* Step6: subColumn1 */
+.menuBox1 {
+  /* background-color: #839422; */
+}
+
+/* Step7: contentContainer */
+.menuBox1 figure {
+  /* background-color: #0bdfee; */
+}
+
+.menuBox1 figure img {
+  /* background-color: #d6d6d6; */
+  width: 100%;
+  aspect-ratio: 1/1;
+  padding: 3rem;
+}
+
+/* Step5: column2 */
+.menuBlock2 {
+  /* background-color: #e60000; */
+}
+
+/* Step6: subColumn2 */
+.menuBox2 {
+  /* background-color: #454654; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+/* Step7: contentContainer */
+.menuBox2 h2 {
+  /* background-color: #ffffff; */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  font-weight: 900;
+  color: #212529;
+
+
+}
+
+.menuBox2 p {
+  /* background-color: #f3f3f3; */
+  font-family: var(--ffsecondary);
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #212529;
+}
+
+.menuBox2 button {
+  background-color: #be9c79;
+  margin: 2rem 0rem;
+  font-family: var(--ffsecondary);
+  font-size: 3rem;
+  padding: 0.7rem 3rem;
+  font-weight: 400;
+  color: #ffffff;
+
+}
+
+.menuBox2 button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.2s ease;
+}

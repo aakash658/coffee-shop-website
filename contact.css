@@ -1,0 +1,120 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.contact {
+  background-color: #ffffff;
+  padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.contactContainer {
+  /* background-color: #85b1c1; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Step4: row1 */
+.contactBody1 {
+  /* background-color: #88b8cc; */
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Step5: column1 */
+.contactBlock1 {
+  /* background-color: #1a4750; */
+}
+
+/* Step6: subColumn1 */
+.contactBox1 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Step7: contentContainer */
+.contactBox1 figure {
+  background-color: #ffffff;
+}
+
+.contactBox1 figure img {
+  background-color: #ffffff;
+  width: auto;
+  height: 4rem;
+}
+
+.contactBox1 h2 {
+  /* background-color: yellowgreen; */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  color: #212529;
+  font-weight: 900;
+
+}
+
+/* Step4: row2 */
+.contactBody2 {
+  /* background-color: #88b8cc; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+/* Step5: column2 */
+.contactblock2 {
+  /* background-color: violet; */
+}
+
+/* Step6: subColumn2 */
+.contactBox2 {
+  /* background-color: #c8ff00; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Step7: contentContainer */
+.contactBox2 figure {
+  /* background-color: #0dbc9d; */
+}
+
+.contactBox2 figure img {
+  /* background-color: tomato; */
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+
+/* step5: column3 */
+.contactBlock3 {
+  /* background-color: #0492ae; */
+
+}
+
+/*step6: subcolumn3 */
+.contactBox3 {
+  /* background-color: #c8ff00; */
+
+}

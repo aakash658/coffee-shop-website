@@ -1,0 +1,93 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.heroSection {
+  /* background-color: #810707; */
+  background-image: url(./assets/images/home-bg.jpg);
+  padding: 23rem 0rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Step3: componentContainer */
+.heroSectioncontainer {
+  /* background-color: #ffffff; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Step4: row1 */
+.heroSectionBody1 {
+  /* background-color: #6e2c2c; */
+ 
+}
+
+/* Step5: column1 */
+.heroSectionBlock1 {
+  /* background-color: #4c4d07; */
+}
+
+/* Step6: subColumn1 */
+.heroSectionBox1 {
+  /* background-color: #abdc08; */
+   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 50%;
+  /* padding: 7rem 15rem; */
+}
+
+/* Step7: contentContainer */
+.heroSectionBox1 h1 {
+  /* background-color: #ffffffff; */
+  font-family: var(--ffprimary);
+  font-size: 7rem;
+  color: #212529;
+  font-weight: 900;
+
+}
+
+.heroSectionBox1 p {
+  /* background-color: #ffffff; */
+  font-family: var(--ffsecondary);
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #212529;
+
+}
+
+.heroSectionBox1 button {
+  background-color: #be9c79;
+  /* margin: 2rem 0rem; */
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  color: #ffffff;
+  
+
+}
+
+
+.heroSectionBox1 button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.2s ease;
+}

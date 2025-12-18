@@ -1,0 +1,282 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.facility {
+  /* background-color: #7a0000; */
+  padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.facilityContainer {
+  /* background-color: #ecedee; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Step4: row1 */
+.facilityBody1 {
+  /* background-color: #ffffff; */
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Step5: column1 */
+.facilityBlock1 {
+  /* background-color: #ffffff; */
+
+}
+
+/* Step6: subColumn1 */
+.facilityBox1 {
+  /* background-color: #ffffff; */
+  width: 100;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+
+}
+
+/* Step7: contentContainer */
+.facilityBox1 figure {
+  /* background-color: #fbfbfb; */
+}
+
+.facilityBox1 figure img {
+  /* background-color: #ffffff; */
+  width: auto;
+  height: 4rem;
+}
+
+.facilityBox1 h2 {
+  /* background-color: rgb(250, 255, 241); */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  color: #212529;
+  font-weight: 900;
+}
+
+/* Step4: row2 */
+.facilityBody2 {
+  /* background-color: #f7f7f7; */
+}
+
+/* Step5: column2 */
+.facilityBlock2 {
+  /* background-color: rgb(255, 255, 255); */
+  /* background-color: aqua; */
+}
+
+/* Step6: subColumn2 */
+.facilityBox2 {
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+/* Step7: contentContainer */
+.facilityBox2 figure {
+  /* background-color: #5594d2; */
+}
+
+.facilityBox2 img {
+  /* background-color: rgb(244, 242, 242); */
+  width: auto;
+  height: 10rem;
+
+}
+
+.facilityBox2 h3 {
+  background-color: #ffffff;
+  margin: 1rem 1rem;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212529;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.facilityBox2 p {
+  background-color: #ffffff;
+  margin: 0rem 2rem;
+  font-family: var(--ffSecondary);
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #212529;
+  text-align: center;
+}
+
+/* step5: column3 */
+.facilityBlock3 {
+  /* background-color: #0492ae; */
+
+}
+
+/*step6: subcolumn3 */
+.facilityBox3 {
+  /* background-color: #7469a9; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 3rem;
+
+}
+
+/*step7:contentContainer */
+.facilityBox3 figure {
+  /* background-color: #ffffff; */
+}
+
+.facilityBox3 img {
+  /* background-color: rgb(255, 255, 255); */
+  margin: 1rem 0rem;
+  width: auto;
+  height: 10rem;
+
+}
+
+.facilityBox3 h3 {
+  /* background-color: rgb(201, 108, 108); */
+  margin: 1rem 1rem;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212529;
+}
+
+.facilityBox3 p {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: var(--ffSecondary);
+  margin: 0rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #212529;
+  text-align: center;
+
+}
+
+/* step5: column4 */
+.facilityBlock4 {
+  /* background-color: #826229; */
+
+}
+
+/*step6:subcolumn4 */
+.facilityBox4 {
+  /* background-color: #d2d181; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 3rem;
+}
+
+/*step7:contentContainer*/
+.facilityBox4 figure {
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.facilityBox4 img {
+  /* background-color: #ffffff; */
+  margin: 1rem 1rem;
+  width: auto;
+  height: 10rem;
+
+}
+
+.facilityBox4 h3 {
+  /* background-color: rgb(254, 254, 254); */
+  margin: 1rem 0rem;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212529;
+
+}
+
+.facilityBox4 p {
+  /* background-color: #ffffff; */
+  font-family: var(--ffSecondary);
+  margin: 0rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #212529;
+}
+
+/*step5:column5 */
+.facilityBlock5 {
+  /* background-color: #ffffff; */
+
+}
+
+/*step6:subcolumn5 */
+.facilityBox5 {
+  /* background-color: #bb9ab9; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 3rem;
+
+}
+
+/*step7:contentcontainer*/
+.facilityBox5 figure {
+  /* background-color: #cbd3d4; */
+}
+
+.facilityBox5 img {
+  /* background-color: aliceblue; */
+  margin: 1rem 0rem;
+  width: auto;
+  height: 10rem;
+
+}
+
+.facilityBox5 h3 {
+  /* background-color: rgb(219, 98, 98); */
+  margin: 1rem 2rem;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
+  color: #212529;
+  font-weight: 500;
+
+}
+
+.facilityBox5 p {
+  /* background-color: azure; */
+  font-family: var(--ffSecondary);
+  margin: 0rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #212529;
+}

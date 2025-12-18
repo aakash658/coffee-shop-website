@@ -1,0 +1,256 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.gallery {
+    /* background-color: #ffffff; */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.galleryContainer {
+    /* background-color: #85b1c1; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Step4: row1 */
+.galleryBody1 {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Step5: column1 */
+.galleryBlock1 {
+    background-color: #ffffff;
+}
+
+/* Step6: subColumn1 */
+.galleryBox1 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+
+/* Step7: contentContainer */
+.galleryBox1 figure {
+    background-color: #ffffff;
+}
+
+.galleryBox1 figure img {
+    background-color: #ffffff;
+    width: auto;
+    height: 4rem;
+   
+}
+
+.galleryBox1 h2 {
+    background-color: rgb(254, 254, 254);
+    font-family: var(--ffprimary);
+     font-weight: 900;
+     font-size: 4rem;
+      color:#212529;
+}
+
+/* Step4: row2 */
+.galleryBody2 {
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0rem 5rem;
+}
+
+/* Step5: column2 */
+.galleryblock2 {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Step6: subColumn2 */
+.galleryBox2 {
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Step7: contentContainer */
+.galleryBox2 figure {
+    /* background-color: #5a3939; */
+}
+
+.galleryBox2 figure img {
+    background-color: rgb(223, 214, 83);
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+
+
+/* step5: column3 */
+.galleryBlock3 {
+    background-color: #fefefe;
+
+}
+
+/*step6: subColumn3 */
+.galleryBox3 {
+    /* background-color: #af4242; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentContainer */
+.galleryBox3 figure {
+    /* background-color: #602c2c; */
+}
+
+.galleryBox3 figure img {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+
+
+
+/* step5: column4 */
+.galleryBlock4 {
+    background-color: #ffffff;
+
+}
+
+/*step6:subcolumn4 */
+.galleryBox4 {
+    /* background-color: #85b1c1; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentContainer*/
+.galleryBox4 figure {
+    /* background-color: rgb(16, 32, 46); */
+}
+
+.galleryBox4 figure img {
+    background-color: #ffffff;
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+
+/*step5:column5 */
+.galleryBlock5 {
+    /* background-color: #341414; */
+
+}
+
+/*step6:subcolumn5 */
+.galleryBox5 {
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentcontainer*/
+.galleryBox5 figure {
+    /* background-color: #bc3333; */
+}
+
+.galleryBox5 figure img {
+    background-color: aliceblue;
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+
+
+/*step5:column6 */
+.galleryBlock6 {
+    background-color: beige;
+}
+
+/*step6:subColumn6 */
+.galleryBox6 {
+    /* background-color: turquoise; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7::contentContainer*/
+.galleryBox6 figure {
+    background-color: #ffffff;
+}
+
+.galleryBox6 figure img {
+    background-color: thistle;
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+
+/*step5:column7 */
+.galleryBlock7 {
+    background-color: aliceblue;
+}
+
+/*step6:subCloumn7 */
+.galleryBox7 {
+    background-color: snow;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7::contentContainer*/
+.galleryBox7 figure {
+    /* background-color: rgb(9, 41, 136); */
+}
+
+.galleryBox7 figure img {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    aspect-ratio: 3/2;
+
+}

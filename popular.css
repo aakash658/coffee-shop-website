@@ -1,0 +1,303 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.popular {
+    background-color: #ffffff;
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.popularContainer {
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+/* Step4: row1 */
+.popularBody1 {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Step5: column1 */
+.popularBlock1 {
+    /* background-color: #ffffff; */
+
+}
+
+/* Step6: subColumn1 */
+.popularBox1 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+
+/* Step7: contentContainer */
+.popularBox1 figure {
+    /* background-color: #ffffff; */
+}
+
+.popularBox1 figure img {
+    background-color: #ffffff;
+    width: auto;
+    height: 4rem;
+}
+
+.popularBox1 h2 {
+    background-color: rgb(255, 255, 255);
+    font-family: var(--ffprimary);
+    font-size: 4rem;
+    color: #212529;
+    font-weight: 900;
+}
+
+/* Step4: row2 */
+.popularBody2 {
+    /* background-color: #88b8cc; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0rem 10rem;
+}
+
+/* Step5: column2 */
+.popularBlock2 {
+    /* background-color: rgb(215, 215, 215); */
+}
+
+/* Step6: subColumn2 */
+.popularBox2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    
+}
+
+/* Step7: contentContainer */
+.popularBox2 figure {
+    background-color: #ffffff;
+}
+
+.popularBox2 figure img {
+    /* background-color: rgb(175, 53, 53); */
+    width: 100%;
+    aspect-ratio: 1/1;
+    
+}
+
+.popularBox2 h3 {
+    background-color: #ffffff;
+    margin: 0rem 0rem;
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+
+/* step5: column3 */
+.popularBlock3 {
+    background-color: #ffffff;
+
+}
+
+/*step6: subcolumn2*/
+.popularBox3 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentContainer */
+.popularBox3 figure {
+    background-color: #ffffff;
+}
+
+.popularBox3 figure img {
+    /* background-color: rgb(255, 221, 0); */
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.popularBox3 h3 {
+    /* background-color: wheat; */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+
+/* step5: column4 */
+.popularBlock4 {
+    /* background-color: #ffffff; */
+
+}
+
+/*step6:subcolumn4*/
+.popularBox4 {
+    /* background-color: #85b1c1; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentContainer*/
+.popularBox4 figure {
+    /* background-color: aliceblue; */
+}
+
+.popluarBox4 figure img {
+    /* background-color: #3f5101; */
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.popularBox4 h3 {
+    /* background-color: aquamarine; */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/*step5:column5 */
+.popularBlock5 {
+    background-color: #ffffff;
+
+}
+
+/*step6:subcolumn5*/
+.popularBox5 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentcontainer*/
+.popularBox5 figure {
+    /* background-color: #ffffff; */
+}
+
+.popularBox5 figure img {
+    /* background-color: aliceblue; */
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.popularBox5 h3 {
+    /* background-color: rgb(237, 237, 236); */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+/*step5:column6 */
+.popularBlock6 {
+    background-color: beige;
+}
+
+/*step6:subColumn6 */
+.popularBox6 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7::contentContainer*/
+.popularBox6 figure {
+    background-color: #f9f9f9;
+}
+
+.popularBox6 figure img {
+    /* background-color: rgb(215, 111, 215); */
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.popularBox6 h3 {
+    background-color: rgb(252, 252, 252);
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/*step5:column7 */
+.popularBlock7 {
+    background-color: aliceblue;
+}
+
+/*step6:subCloumn7 */
+.popularBox7 {
+    background-color: snow;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7::contentContainer*/
+.popularBox7 figure {
+    background-color: rgb(255, 255, 255);
+}
+
+.popularBox7 figure img {
+    /* background-color: rgb(45, 14, 14); */
+    width: 100%;
+    aspect-ratio: 1/1;
+
+}
+
+.popularBox7 h3 {
+    /* background-color: rgb(185, 80, 80); */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+}

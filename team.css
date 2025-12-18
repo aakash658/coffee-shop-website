@@ -1,0 +1,292 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.team {
+  /* background-color: #430303; */
+  padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.teamContainer {
+  /* background-color: #85b1c1; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Step4: row1 */
+.teamBody1 {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+/* Step5: column1 */
+.teamBlock1 {
+  background-color: #ffffff;
+}
+
+/* Step6: subColumn1 */
+.teamBox1 {
+  background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Step7: contentContainer */
+.teamBox1 figure {
+    /* background-color: #0492ae; */
+}
+
+.teamBox1 figure img{
+    background-color: #fffffe;
+    width: auto;
+    height: 4rem;
+}
+.teamBox1 h2{
+    background-color: rgb(255, 255, 255);
+    font-family: var(--ffprimary);
+    font-size: 4rem;
+    font-weight: 900;
+    color: #212529;
+    
+
+
+}
+
+/* Step4: row2 */
+.teamBody2 {
+  /* background-color: #88b8cc; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  padding:3rem 11rem;
+  
+}
+
+/* Step5: column2 */
+.teamBlock2 {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Step6: subColumn2 */
+.teamBox2 {
+  background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Step7: contentContainer */
+.teamBox2 figure {
+  /* background-color: #0dbc9d; */
+}
+.teamBox2 figure img{
+    /* background-color: tomato; */
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.teamBox2 h3 {
+  /* background-color: #ffffff; */
+  margin: 0rem 0rem;
+  font-family: var(--ffsecondary); 
+  color: #212529;
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+
+/* step5: column3 */
+.teamBlock3{
+    /* background-color: #0492ae; */
+    
+}
+
+/*step6: subcolumn3 */
+.teamBox3 {
+    /* background-color: #c8ff00; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentContainer */
+.teamBox3 figure{
+    /* background-color: #0492ae; */
+}
+
+.teamBox3 figure img{
+    background-color: whitesmoke;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.teamBox3 h3{
+    /* background-color: wheat; */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-weight: 400;
+    font-size: 2rem;
+    
+}
+
+
+/* step5: column4 */
+.teamBlock4{
+    /* background-color: #0492ae; */
+   
+}
+
+/*step6:subcolumn4 */
+.teamBox4 {
+    /* background-color: #85b1c1; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentContainer*/
+.teamBox4 figure{
+    background-color: aliceblue;
+}
+
+.teamBox4 figure img{
+    /* background-color: #3f5101; */
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.teamBox4 h3{
+    /* background-color: aquamarine; */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/*step5:column5 */
+.teamBlock5{
+    /* background-color: #0492ae; */
+   
+}
+
+/*step6:subcolumn5 */
+.teamBox5 {
+    /* background-color: #0492ae; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*step7:contentcontainer*/
+.teamBox5 figure {
+    /* background-color: #0492ae; */
+}
+
+.teamBox5 figure img{
+    background-color: aliceblue;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.teamBox5 h3{
+    /* background-color: bisque; */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/*step5:column6 */
+.teamBlock6{
+    /* background-color: beige; */
+}
+
+/*step6:subColumn6 */
+.teamBox6{
+    /* background-color: turquoise; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*step7::contentContainer*/
+.teamBox6 figure{
+    /* background-color: #1a4750; */
+}
+.teamBox6 figure img{
+    /* background-color: thistle; */
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.teamBox6 h3{
+    /* background-color: rgb(26, 65, 45); */
+    font-family: var(--ffsecondary);
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 400;
+}
+/*step5:column7 */
+.teamBlock7{
+    /* background-color: aliceblue; */
+}
+/*step6:subCloumn7 */
+.teamBox7{
+    background-color: snow;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+/*step7::contentContainer*/
+.teamBox7 figure{
+    /* background-color: rgb(252, 202, 108); */
+}
+.teamBox7 figure img{
+    /* background-color: tan; */
+    width: 100%;
+    aspect-ratio: 1/1;
+
+}
+.teamBox7 h3{
+    /* background-color: slateblue; */
+    font-family: var(--ffsecondary);
+    font-size: 2rem;
+    color: #212529;
+    font-weight: 400;
+}

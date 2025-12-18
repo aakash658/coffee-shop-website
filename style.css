@@ -1,0 +1,906 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-wrap: pretty;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --ffprimary: "Merienda", cursive;
+  --ffsecondary: "Nunito", sans-serif;
+  --primarycolor: #212529;
+  --secondarycolor: #ffffff;
+  --tertiarycolor: #343A40;
+  --darkcolor: #212529;
+  --lightcolor: #BE9C79;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--primaryColor);
+  font-family: var(--ffprimary);
+  font-family: var(--ffsecondary);
+  color: var(--darkColor);
+  color: var(--lightcolor);
+  font-size: var(--regularFont);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+  text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+/* :::::SCROLL BAR CODE S T A R T S::::: */
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 1.5rem;
+  /* Vertical scrollbar */
+  height: 10px;
+  /* Horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #e3e4e6;
+  border-radius: 5px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #cececf;
+  /* border-radius: 5px; */
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b9b9ba;
+}
+
+/* :::::SCROLL BAR CODE E N D S::::: */
+
+/* project standard classes Starts */
+.componentSpacing {
+  padding: 3rem 0rem;
+  /* Breathing Space Between Components */
+}
+
+.screenSize {
+  max-width: 1200px;
+  /* Device Screen Size */
+  margin: auto;
+  /* Left and right Center */
+}
+
+.screenSizeTwo {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dflex {
+  display: flex;
+  /* without this wont work */
+  align-items: center;
+  /* top & bottom Alignment */
+  justify-content: center;
+  /* left & right Alignment */
+}
+
+.dflex-col {
+  display: flex;
+  flex-direction: column;
+  /* makes top to bottom align */
+  align-items: center;
+  /* Behaves like a justify-content */
+  justify-content: center;
+  /* Behaves like a align-items */
+  text-align: center;
+}
+
+/* project standard classes Ends */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+  /* background-color: #13c6bd; */
+  width: 100%;
+  /* Full Screensize */
+  height: auto;
+  /* content Height */
+}
+
+main {
+  /* background-color: #ffbf00; */
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  /* background-color: #89f357; */
+  width: 100%;
+  height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* :::HEADER Code Starts hereE::: */
+/* Navbar code */
+
+
+.navBox1 {
+  /* background-color: #8ce9c9; */
+  width: 100%;
+  height: 100%;
+
+}
+
+.navBox1 figure img {
+  /* background-color: #ffffff; */
+  width: auto;
+  height: 5rem;
+  margin-left: 6.5rem;
+}
+
+.navBox2 {
+  /* background-color: #9cc117; */
+  width: 100%;
+  height: 100%;
+
+}
+
+.navBox2 ul li {
+  /* background-color: #00009d; */
+  margin: 0rem 0.9rem;
+
+}
+
+.navBox2 ul li a {
+  /* background-color: #ffffff; */
+  font-size: 2rem;
+  color: #343A40;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+}
+
+.navBox2 i {
+  color: black;
+  font-size: 2rem;
+}
+.hamburgerIcon{
+  display: none;
+}
+
+
+#iconToggle{
+  display: none;
+}
+
+
+
+/* Navbar code */
+
+/* Hero Section code */
+
+
+.heroSection {
+  /* background-color: #810707; */
+  background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/home-bg.jpg);
+  /* background-image: url(./assets/images/home-bg.jpg); */
+  padding: 23rem 0rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.heroSectionBox1 {
+  /* background-color: #abdc08;/ */
+  /* width: 100%; */
+  height: 100%;
+  width: 50%;
+  /* padding: 9rem 0rem; */
+}
+
+.heroSectionBox1 h1 {
+  /* background-color: #ffffffff; */
+  font-family: var(--ffprimary);
+  font-size: 7rem;
+  color: #212529;
+  font-weight: 900;
+
+}
+
+.heroSectionBox1 p {
+  /* background-color: #ffffff; */
+  font-family: var(--ffsecondary);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #212529;
+
+}
+
+.heroSectionBox1 button {
+  background-color: #d3a474;
+  /* margin: 2rem 0rem; */
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  color: #ffffff;
+  font-weight: 400%;
+  /* border-color: #f90000; */
+  border: none;
+}
+
+.heroSectionBox1 button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+
+.menuBox1 figure img {
+  /* background-color: #d6d6d6; */
+  width: 100%;
+  aspect-ratio: 1/1;
+  padding: 3rem;
+}
+
+.menuBox2 {
+  /* background-color: #454654; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.menuBox2 h2 {
+  /* background-color: #ffffff; */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  font-weight: 900;
+  color: #212529;
+  line-height: 1;
+}
+
+.menuBox2 p {
+  /* background-color: #f3f3f3; */
+  font-family: var(--ffsecondary);
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #212529;
+  /* margin: 1rem 0rem; */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menuBox2 button {
+  background-color: #be9c79;
+  /* margin: 2rem 0rem; */
+  font-family: var(--ffsecondary);
+  font-size: 2rem;
+  padding: 0.7rem 3rem;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+
+}
+
+.menuBox2 button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+/* Our Menu code */
+
+/* Facility code */
+
+
+.facilityBox1 {
+  /* background-color: #ffffff; */
+  width: 100;
+  height: 100%;
+  padding: 1rem 0rem;
+}
+
+.facilityBox1 figure img {
+  /* background-color: #ffffff; */
+  width: auto;
+  height: 4rem;
+}
+
+
+.facilityBox1 h2 {
+  /* background-color: rgb(250, 255, 241); */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  color: #212529;
+  font-weight: 900;
+}
+
+.facilityBox2 {
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 100%;
+  /* padding: 1rem 2rem; */
+}
+
+.facilityBox2 img {
+  /* background-color: rgb(244, 242, 242); */
+  width: auto;
+  height: 10rem;
+}
+
+.facilityBox2 h3 {
+  /* background-color: #ffffff; */
+  margin: 1rem 0rem;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212529;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.facilityBox2 p {
+  /* background-color: #ffffff; */
+  /* margin: 0rem 1rem; */
+  font-family: var(--ffSecondary);
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #212529;
+  text-align: center;
+}
+
+/* Facility code */
+
+/* Popular code */
+.popularBox1 {
+  /* background-color: #290000; */
+  width: 100%;
+  height: 100%;
+  /* padding: 3rem 0rem; */
+  margin-bottom: 1rem;
+}
+
+.popularBox1 figure img {
+  /* background-color: #ffffff; */
+  width: auto;
+  height: 4rem;
+}
+
+.popularBox1 h2 {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  color: #212529;
+  font-weight: 900;
+}
+
+.popularBox2 {
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 100%;
+  /* margin: 1rem; */
+
+}
+
+.popularBox2 figure img {
+  /* background-color: rgb(175, 53, 53); */
+  width: 100%;
+  aspect-ratio: 1/1;
+
+}
+
+.popularBox2 h3 {
+  /* background-color: #ffffff; */
+  margin: 0rem 0rem;
+  font-family: var(--ffsecondary);
+  color: #212529;
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+
+/* Popular code */
+
+/* Gallery code */
+
+
+.galleryBox1 {
+  /* background-color: #b60808; */
+  width: 100%;
+  height: 100%;
+  /* padding: 3rem 2rem; */
+}
+
+.galleryBox1 figure img {
+  /* background-color: #ffffff; */
+  width: auto;
+  height: 4rem;
+
+}
+
+.galleryBox1 h2 {
+  /* background-color: rgb(254, 254, 254); */
+  font-family: var(--ffprimary);
+  font-weight: 900;
+  font-size: 4rem;
+  color: #212529;
+}
+
+.galleryBody2 {
+  gap: 3rem;
+  /* padding: 0rem 5rem; */
+}
+
+.galleryBox2 {
+  /* background-color: #b70d0d; */
+  width: 100%;
+  height: 100%;
+
+}
+
+.galleryBox2 figure img {
+  /* background-color: rgb(223, 214, 83); */
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+/* Gallery code */
+
+/* Team code */
+.teamContainer {
+  /* background-color: #85b1c1; */
+  max-width: 900px;
+  margin: auto;
+}
+
+.teamBox1 {
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 100%;
+}
+
+.teamBox1 figure img {
+  /* background-color: #fffffe; */
+  width: auto;
+  height: 4rem;
+}
+
+.teamBox1 h2 {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  font-weight: 900;
+  color: #212529;
+}
+
+.teamBody2 {
+  gap: 3rem;
+  /* padding: 3rem 11rem; */
+
+}
+
+.teamBox2 {
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 100%;
+}
+
+.teamBox2 figure img {
+  /* background-color: tomato; */
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.teamBox2 h3 {
+  /* background-color: #ffffff; */
+  margin: 0rem 0rem;
+  font-family: var(--ffsecondary);
+  color: #212529;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+
+.contactBox1 {
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 100%;
+
+}
+
+.contactBox1 figure img {
+  /* background-color: #ffffff; */
+  width: auto;
+  height: 4rem;
+}
+
+.contactBox1 h2 {
+  /* background-color: yellowgreen; */
+  font-family: var(--ffprimary);
+  font-size: 4rem;
+  color: #212529;
+  font-weight: 900;
+  /* padding: 5rem; */
+
+}
+
+.contactBox2 {
+  /* background-color: #c8ff00; */
+  width: 100%;
+  height: 100%;
+
+}
+
+.contactBox2 figure img {
+  /* background-color: tomato; */
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.contactBox3 {
+  width: 100%;
+  height: 70%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 0rem; */
+}
+
+
+
+
+.contactBox3 h2 {
+  /* background-color: brown; */
+  font-size: 3.5rem;
+  color: #212529;
+  /* font-family: var(--ffSecondary); */
+  font-weight: 450;
+  line-height: 2;
+
+}
+
+form {
+  /* background-color: chocolate; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 50px; */
+  width: 90%;
+  /* padding-bottom: 5rem; */
+}
+
+.formGroupOne {
+  /* background-color: darkgreen; */
+  /* padding: 5rem; */
+  width: 100%;
+  padding-bottom: 3rem;
+  /* font-size: 2rem; */
+}
+
+input {
+  width: 100%;
+  height: 50px;
+}
+
+.formGroupTwo {
+  /* background-color: blueviolet; */
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+input::placeholder {
+  font-family: inherit;
+  font-size: 2.5rem;
+  padding-left: 2rem;
+}
+
+.formGroupThree {
+  /* background-color: crimson; */
+  width: 100%;
+  padding-bottom: 3rem;
+  line-height: 1;
+
+}
+
+.contactBox3 button {
+  background-color: #be9c79;
+  font-family: var(--ffSecondary);
+  color: white;
+  font-size: 2rem;
+  padding: 0.8rem;
+  border: none;
+}
+
+.contactBox3 button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+
+.contactBlock {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Contact code */
+
+/* Contact Icons code */
+.contactIconBody1 {
+  /* background-color: #be9c79; */
+  padding-bottom: 2rem;
+}
+
+.contactIconBox1 {
+  /* background-color: #d40000; */
+
+
+}
+
+.contactCardHeader {
+  background-color: #be9c79;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactCardHeader i {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.contactIconBox1 h3 {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: var(--ffsecondary);
+  font-weight: 500;
+  color: #212529;
+  font-size: 2rem;
+  margin: 1rem;
+
+}
+
+.contactIconBox1 p {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: var(--ffsecondary);
+  color: #212529;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.2;
+  margin-bottom: 3rem;
+
+}
+
+.contactIconBox5 {
+  /* background-color: #ca0000; */
+  width: 100%;
+  height: 100%;
+  /* padding: 5rem 0rem; */
+  padding-top: 2rem;
+  /* padding-bottom: 2rem; */
+}
+
+.contactIconBody2 {
+  border-top: 2px solid black;
+
+}
+
+.contactIconBox5 p {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: var(--ffsecondary);
+  font-weight: 500;
+  color: #212529;
+  font-size: 2rem;
+}
+
+span {
+  color: #be9c79;
+}
+
+
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+    /* padding: 0rem 1rem; */
+  }
+
+ .navBox2{
+  /* background-color: aqua; */
+ }
+
+.hamburgerIcon{
+    display: block;
+    position: absolute;
+    top: 4.5rem;
+    right: 5rem;
+    border: 1px solid black;
+    padding: 0.75rem;
+  }
+
+.links{
+  flex-direction: column;
+  display: none;
+margin-left: auto;
+margin-right: 2rem;
+line-height: 3;
+ 
+}
+
+#iconToggle:checked ~ .links{
+  display:  flex;
+}
+
+  .heroSectionBox1 {
+    /* background-color: green; */
+    padding: 3rem;
+    width: 60%;
+  }
+
+  .heroSectionBox1 h1 {
+    font-size: 3rem;
+    line-height: 1;
+    /* padding: 1rem; */
+  }
+
+  .menuBox2 {
+    padding: 1rem;
+  }
+
+  .menuBox1 figure img {
+    padding: 0;
+  }
+
+  .galleryBox2 {
+    padding: 0rem 2rem;
+  }
+
+  .teamBox2 {
+    padding: 0rem 9rem;
+
+  }
+
+  .contactIconBox1 {
+    grid: 4;
+  }
+
+  .contactIconBox5 {
+    text-align: center;
+
+  }
+
+  .contactBox3 {
+    height: 100%;
+    width: 90%;
+  }
+
+  .contactBox3 button {
+    margin-bottom: 4rem;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (width >=577px) and (width <=768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* write code here */
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (width >=769px) and (width <=992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* write code here */
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (width >=993px) and (width <=1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* write code here */
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (width >=1200px) */
+@media (min-width: 1201px) {
+  /* write code here */
+}
