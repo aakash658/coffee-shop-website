@@ -690,10 +690,10 @@ input::placeholder {
   background-color: #be9c79;
   font-family: var(--ffSecondary);
   color: white;
-  font-size: 3rem;
-  padding: 2rem;
+  font-size: 2rem;
+  padding: 1.5rem;
   border: none;
-  /* width: 40%; */
+  width: 40%;
 
 }
 
