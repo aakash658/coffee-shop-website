@@ -183,10 +183,9 @@ footer {
 /* :::HEADER Code Starts hereE::: */
 
 /* Navbar code */
-.componentSpacing {
+.navBarcomponentSpacing{
   padding: 2.5rem;
 }
-
 .navBox1 {
   /* background-color: #8ce9c9; */
   width: 100%;
@@ -229,12 +228,13 @@ footer {
   color: black;
   font-size: 2rem;
 }
-.hamburgerIcon{
+
+.hamburgerIcon {
   display: none;
 }
 
 
-#iconToggle{
+#iconToggle {
   display: none;
 }
 
@@ -426,7 +426,7 @@ footer {
 /* Facility code */
 
 /* Popular code */
-.popularBody2{
+.popularBody2 {
   column-gap: 3rem;
 }
 
@@ -698,7 +698,7 @@ input::placeholder {
   padding: 1rem;
   border: none;
   width: 35%;
-  
+
 }
 
 .contactBox3 button:hover {
@@ -775,14 +775,14 @@ input::placeholder {
   height: 100%;
   /* padding: 5rem 0rem; */
   padding-top: 2rem;
- 
-  
+
+
 }
 
 .contactIconBody2 {
   border-top: 2px solid black;
   margin-top: 2rem;
-  
+
 
 }
 
@@ -791,7 +791,7 @@ input::placeholder {
   font-family: var(--ffsecondary);
   font-weight: 500;
   color: #212529;
-   font-size: 2rem;
+  font-size: 2rem;
 }
 
 span {
@@ -819,11 +819,11 @@ span {
     /* padding: 0rem 1rem; */
   }
 
- .navBox2{
-  /* background-color: aqua; */
- }
+  .navBox2 {
+    /* background-color: aqua; */
+  }
 
-.hamburgerIcon{
+  .hamburgerIcon {
     display: block;
     position: absolute;
     top: 4rem;
@@ -832,18 +832,18 @@ span {
     padding: 0.75rem;
   }
 
-.links{
-  flex-direction: column;
-  display: none;
-margin-left: auto;
-margin-right: 2rem;
-line-height: 3;
- 
-}
+  .links {
+    flex-direction: column;
+    display: none;
+    margin-left: auto;
+    margin-right: 2rem;
+    line-height: 3;
 
-#iconToggle:checked ~ .links{
-  display:  flex;
-}
+  }
+
+  #iconToggle:checked~.links {
+    display: flex;
+  }
 
   .heroSectionBox1 {
     /* background-color: green; */
@@ -877,9 +877,10 @@ line-height: 3;
   .contactIconBox1 {
     grid: 4;
     padding-bottom: 3rem;
-   
+
   }
-  .contactIconBox1 h3{
+
+  .contactIconBox1 h3 {
     margin-top: 3rem;
   }
 
@@ -895,7 +896,7 @@ line-height: 3;
 
   .contactBox3 button {
     margin-bottom: 4rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .form {
