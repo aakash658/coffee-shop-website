@@ -691,9 +691,9 @@ input::placeholder {
   font-family: var(--ffSecondary);
   color: white;
   font-size: 2rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border: none;
-  /* width: 40%; */
+  width: 40%;
 
 }
 
