@@ -181,8 +181,11 @@ footer {
 /* :::PARENT CONTAINER Code Ends here::: */
 
 /* :::HEADER Code Starts hereE::: */
-/* Navbar code */
 
+/* Navbar code */
+.componentSpacing {
+  padding: 2.5rem;
+}
 
 .navBox1 {
   /* background-color: #8ce9c9; */
@@ -192,7 +195,7 @@ footer {
 }
 
 .navBox1 figure img {
-  /* background-color: #ffffff; */
+  /* background-color: #611414; */
   width: auto;
   height: 5rem;
   margin-left: 6.5rem;
@@ -326,7 +329,7 @@ footer {
   font-size: 4rem;
   font-weight: 900;
   color: #212529;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .menuBox2 p {
@@ -345,7 +348,7 @@ footer {
   /* margin: 2rem 0rem; */
   font-family: var(--ffsecondary);
   font-size: 2rem;
-  padding: 0.7rem 3rem;
+  padding: 1rem 3rem;
   font-weight: 400;
   color: #ffffff;
   border: none;
@@ -502,7 +505,7 @@ footer {
 
 .galleryBody2 {
   gap: 3rem;
-  /* padding: 0rem 5rem; */
+  padding: 0rem 5rem;
 }
 
 .galleryBox2 {
@@ -516,11 +519,13 @@ footer {
   /* background-color: rgb(223, 214, 83); */
   width: 100%;
   aspect-ratio: 4/3;
+  /* height: 3rem; */
 }
 
 /* Gallery code */
 
 /* Team code */
+
 .teamContainer {
   /* background-color: #85b1c1; */
   max-width: 900px;
@@ -550,7 +555,6 @@ footer {
 
 .teamBody2 {
   gap: 3rem;
-  /* padding: 3rem 11rem; */
 
 }
 
@@ -563,6 +567,7 @@ footer {
 .teamBox2 figure img {
   /* background-color: tomato; */
   width: 100%;
+
   aspect-ratio: 1/1;
 }
 
