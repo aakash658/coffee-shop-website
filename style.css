@@ -690,10 +690,10 @@ input::placeholder {
   background-color: #be9c79;
   font-family: var(--ffSecondary);
   color: white;
-  font-size: 2rem;
-  padding: 1.5rem;
+  font-size: 3rem;
+  padding: 2rem;
   border: none;
-  width: 40%;
+  /* width: 40%; */
 
 }
 
@@ -892,7 +892,7 @@ span {
 
   .contactBox3 button {
     margin-bottom: 4rem;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .form {
