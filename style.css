@@ -563,8 +563,7 @@ footer {
 
 .teamBox2 figure img {
   /* background-color: tomato; */
-  width: 100%;
-
+  /* width: 100%; */
   aspect-ratio: 1/1;
 }
 
@@ -867,7 +866,7 @@ span {
   }
 
   .teamBox2 {
-    padding: 0rem 9rem;
+    padding: 0rem 7rem;
 
   }
 
@@ -893,7 +892,7 @@ span {
 
   .contactBox3 button {
     margin-bottom: 4rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .form {
